@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <title>Y click?</title>
+    
+</head>
+<body onload="constant()">
+    <table id="all">
+        
+        <tr>
+            <td>
+            <div id="tables">
+        <table align="left">
+               
+            <tr class="sameLine">
+                <td><img src="coug.png" onclick="addTC(event)"></td>
+                <td><p id="costcoug">Buy one cougar for 25 Provo points (+1Pppc)</p></td>
+            </tr>
+
+            <tr>
+                <td><img src="football.png" onclick="addFB(event)"></td>
+                <td><p id="costFB">Buy one football for 50 Provo points (+1Ppps)</p></td>
+                
+            </tr>
+            <tr>
+                <td><img src="field.png" onclick="winGame(event)"></td>
+                <td><p id="costGame">Win a game for 400Pps to earn a fan (+.2*fbps)</p></td>
+                
+            </tr>
+            <tr>
+                <td><img src="tag.png" onclick="addMish(event)"></td>
+                <td><p id="costMish">Buy one missionary for 300 Provo points (+5Ppps)</p></td>
+                
+            </tr>
+        </table>
+    </div>
+    </td>
+
+    <td id="ctb">
+    <div id="main">
+        <p>Click the 'Y' below to earn Provo points</p>
+
+        <form>
+            <img id="btn" class = "center" src="./Yclick1.png" onclick="test(event)" onmousedown="darken(event)" onmouseup="lighten(event)">
+        </form>
+        <script src="mjs.js"></script>
+
+        <p id="numclicks" class = "center" style="text-align=center;">0 Provo points</p>
+        <p id="fans" class = "center" style = "text-align=center;">0 Fans</p>
+        <p id="statuss" class = "center" style="text-align=center;">You're an incoming freshman at UVU</p>
+    </div>
+    </td>
+    <td class="center textbox">
+       <div id="thehead"><h1>Y Click</h1></div> 
+        <p class="discription">Work your way up the Provo pyramid Scheme one click at a time. Earn fans along the way that will worship you for a lifetime.</p>
+        <p class="discription">As you gain points, you will earn new levels of respect from your peers. Rise to the top of the social ladder.</p>
+    </td>
+    </tr>
+    </table>
+    
+</body>
+</html>
